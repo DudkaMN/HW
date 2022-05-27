@@ -5,7 +5,6 @@ for i in count(3):
         break
     else:
         print(i ** 2)
-
 my_list = []
 for el in cycle(["один", "два", "три"]):
     if my_list.count(el) < 2:
